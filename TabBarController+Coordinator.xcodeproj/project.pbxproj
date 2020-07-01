@@ -66,13 +66,11 @@
 		F97CEAB6249C62A5007805A9 /* TabBarController+Coordinator */ = {
 			isa = PBXGroup;
 			children = (
-				F97CEAB7249C62A5007805A9 /* AppDelegate.swift */,
-				F97CEACD249C631A007805A9 /* AppCoordinator.swift */,
+				F97CEAE124AC67BB007805A9 /* Application */,
 				F97CEADD249C662D007805A9 /* Login */,
 				F97CEADC249C6619007805A9 /* TabBar */,
-				F97CEAC0249C62A7007805A9 /* Assets.xcassets */,
-				F97CEAC2249C62A7007805A9 /* LaunchScreen.storyboard */,
-				F97CEAC5249C62A7007805A9 /* Info.plist */,
+				F97CEAE224AC67C7007805A9 /* Resources */,
+				F97CEAE324AC67CE007805A9 /* SupportingFiles */,
 				F97CEAD3249C6335007805A9 /* Coordinator */,
 			);
 			path = "TabBarController+Coordinator";
@@ -104,6 +102,32 @@
 				F97CEAD4249C65E0007805A9 /* LoginViewController.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		F97CEAE124AC67BB007805A9 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				F97CEAB7249C62A5007805A9 /* AppDelegate.swift */,
+				F97CEACD249C631A007805A9 /* AppCoordinator.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		F97CEAE224AC67C7007805A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F97CEAC0249C62A7007805A9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F97CEAE324AC67CE007805A9 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F97CEAC2249C62A7007805A9 /* LaunchScreen.storyboard */,
+				F97CEAC5249C62A7007805A9 /* Info.plist */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -322,7 +346,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A28SKUH54N;
-				INFOPLIST_FILE = "TabBarController+Coordinator/Info.plist";
+				INFOPLIST_FILE = "TabBarController+Coordinator/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A28SKUH54N;
-				INFOPLIST_FILE = "TabBarController+Coordinator/Info.plist";
+				INFOPLIST_FILE = "TabBarController+Coordinator/SupportingFiles/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
